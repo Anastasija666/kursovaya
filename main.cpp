@@ -53,21 +53,21 @@ int main()
     //¬вод индекса MCS и считывание с файла пор€дка модул€ци и кодовой скорости:
     if (table==1)
     {
-        ifstream file ("Table1.txt");
+        ifstream file ("Table 5.1.3.1-1 MCS index table 1 for PDSCH.txt");
         for (i=0;i<=MCS;i++)
           file >>n>>Qm>>R>>Spectral_efficiency;
         file.close();
     }
     if (table==2)
     {
-        ifstream file ("Table2.txt");
+        ifstream file ("Table 5.1.3.1-2 MCS index table 2 for PDSCH.txt");
         for (i=0;i<=MCS;i++)
           file >>n>>Qm>>R>>Spectral_efficiency;
         file.close();
     }
     if (table==3)
     {
-        ifstream file ("Table3.txt");
+        ifstream file ("Table 5.1.3.1-3 MCS index table 3 for PDSCH.txt");
         for (i=0;i<=MCS;i++)
           file >>n>>Qm>>R>>Spectral_efficiency;
         file.close();
